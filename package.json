@@ -1,0 +1,16 @@
+{
+  "name": "glukki-adventofcode.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier-standard --format"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-standard": "^16.0.0"
+  },
+  "dependencies": {}
+}
