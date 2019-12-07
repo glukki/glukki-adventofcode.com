@@ -12,5 +12,7 @@
   "devDependencies": {
     "prettier-standard": "^16.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "debug": "^4.1.1"
+  }
 }
