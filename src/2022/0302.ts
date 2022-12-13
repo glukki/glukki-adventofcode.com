@@ -1,9 +1,6 @@
-const decoder = new TextDecoder();
+import { getStdin } from "./getStdin.ts";
 
-let input = "";
-for await (const chunk of Deno.stdin.readable) {
-  input += decoder.decode(chunk);
-}
+const input = await getStdin();
 
 const typeLookup = new Map();
 for (let i = 97; i < 123; i++) { // a=97, z=122
